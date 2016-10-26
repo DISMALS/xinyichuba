@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+<!--禁止缩放-->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<!--全屏显示-->
+<meta content="telephone=no" name="format-detection" />
+<!--告诉设备忽略将页面中的数字识别为电话号码-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<meta name="keywords" content="欣奕除疤">
+<meta name="description" content="欣奕除疤">
+<title>欣奕除疤首页</title>
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.min.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>-->
+<script type="text/javascript" src="js/TouchSlide.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript">
+    //无缝滚动
+    function marquee(i, direction) {
+        var obj = document.getElementById("marquee" + i);
+        var obj1 = document.getElementById("marquee" + i + "_1");
+        var obj2 = document.getElementById("marquee" + i + "_2");
+        if (direction == "up") {
+            if (obj2.offsetTop - obj.scrollTop <= 0) {
+                obj.scrollTop -= (obj1.offsetHeight + 20);
+            } else {
+                var tmp = obj.scrollTop;
+                obj.scrollTop++;
+                if (obj.scrollTop == tmp) {
+                    obj.scrollTop = 1;
+                }
+            }
+        } else {
+            if (obj2.offsetWidth - obj.scrollLeft <= 0) {
+                obj.scrollLeft -= obj1.offsetWidth;
+            } else {
+                obj.scrollLeft++;
+            }
+        }
+    }
+
+    function marqueeStart(i, direction) {
+        var obj = document.getElementById("marquee" + i);
+        var obj1 = document.getElementById("marquee" + i + "_1");
+        var obj2 = document.getElementById("marquee" + i + "_2");
+
+        obj2.innerHTML = obj1.innerHTML;
+        var marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 45);
+    }
+</script>
+</head>
+<body>
+<!--头部部分-->
+<header class="head">
+    <h2 class="logo">
+        <a href="index.html" >
+            <img src="images/logo.jpg" />
+        </a>
+    </h2>
+    <b class="disp"><img src="images/logoTitle.png" /></b>
+    <a class="menuBtn"></a>
+    <div class="menuMain" style="display:none;">
+        <h4>选择栏目<a class="close" href="javascript:void(0);"></a></h4>
+        <!--搜索栏-->
+        <div class="search">
+            <div class="searchL">
+                <span>热门搜索:</span>
+                <a href="#" >祛斑精华液</a>
+                <a href="#" >疤痕增生</a>
+            </div>
+            <div class="searchR">
+                <a href="search.html" >请输入关键词</a>
+            </div>
+            <div class="cl"></div>
+        </div>
+        <!--菜单列表-->
+        <ul class="menuList">
+            <li><a class="menuIndex" href="index.html" >返回首页</a></li>
+            <li><a class="menuOne" href="serviceMenuList.html" >服务项目</a></li>
+            <li><a class="menuTwo" href="aboutUs.html" >欣奕品牌</a></li>
+            <li><a class="menuThree" href="zhuanli.html" >学术研究</a></li>
+            <li><a class="menuFour" href="newsList.html" >美肤常识</a></li>
+            <li><a class="menuFive" href="productList.html" >产品展示</a></li>
+            <li><a class="menuSix" href="case.html" >真人案例</a></li>
+            <li><a class="menuSeven" href="gongyi.html" >欣奕公益</a></li>
+            <li><a class="menuEight" href="mendianSearch.html" >门店查询</a></li>
+            <li><a class="menuNine" href="contact.html" >联系我们</a></li>
+        </ul>
+    </div>
+</header>
+<!--搜索部分-->
+<div class="search">
+    <div class="searchL">
+        <span>热门搜索:</span>
+        <a href="#" >祛斑精华液</a>
+        <a href="#" >疤痕增生</a>
+    </div>
+    <div class="searchR">
+        <a href="search.html" >请输入关键词</a>
+    </div>
+    <div class="cl"></div>
+</div>
+<!--banner部分-->
+<article class="slider">
+    <div class="wrapperFocus" id="wrapperFocus">
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="#" title="活动名称">
+                        <img _src="images/test/banner1.jpg" src="images/test/banner1.jpg" alt="活动名称" />
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#" title="活动名称">
+                        <img _src="images/test/banner1.jpg" src="images/test/banner1.jpg" alt="活动名称" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="活动名称">
+                        <img _src="images/test/banner1.jpg" src="images/test/banner1.jpg" alt="活动名称" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="活动名称">
+                        <img _src="images/test/banner1.jpg" src="images/test/banner1.jpg" alt="活动名称" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="活动名称">
+                        <img _src="images/test/banner1.jpg" src="images/test/banner1.jpg" alt="活动名称" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hd"><ul></ul></div>
+    </div>
+</article>
+<!--导航部分-->
+<article class="navMenu">
+    <ul class="navMenuMain">
+        <li><a href="aboutUs.html" ><b class="pp"></b><h2>欣奕品牌</h2></a></li>
+        <li><a href="zhuanli.html" ><b class="yj"></b><h2>学术研究</h2></a></li>
+        <li><a href="newsList.html" ><b class="cs"></b><h2>美肤常识</h2></a></li>
+        <li><a href="productList.html" ><b class="zs"></b><h2>产品展示</h2></a></li>
+        <li><a href="case.html" ><b class="al"></b><h2>真人案例</h2></a></li>
+        <li><a href="gongyi.html" ><b class="gy"></b><h2>欣奕公益</h2></a></li>
+        <li><a href="addressSearch.html" ><b class="cx"></b><h2>门店查询</h2></a></li>
+        <li><a href="contact.html" ><b class="wm"></b><h2>联系我们</h2></a></li>
+    </ul>
+</article>
+<!--活动专区-->
+<article class="active">
+    <h2>活动专区<a href="zhuanti.html" >更多+</a></h2>
+    <div class="activeMain">
+        <img class="activeOne" src="images/active1.jpg" title="测试图片" />
+        <img class="activeTwo" src="images/active2.jpg" title="测试图片" />
+        <img class="activeTwo" src="images/active3.jpg" title="测试图片" />
+        <div class="cl"></div>
+    </div>
+</article>
+<!--欣奕新闻和常识-->
+<div class="tab">
+    <ul class="tabTitle">
+        <li class="on"><a class="tabBtn" onclick="ljOne()" href="javascript:void(0);">欣奕新闻</a></li>
+        <li class="ri"><a class="tabBtn" onclick="ljTwo()" href="javascript:void(0);">美肤常识</a></li>
+        <a class="more" href="news.html" >更多+</a>
+    </ul>
+    <div class="tabMain">
+        <ul class="tabCommon">
+            <li>
+                <a href="newsCommons.html"  title="">
+                    <h3>欣奕除疤(华北区)店长培训交流会完满举行</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#"  title="">
+                    <h3>欣奕除疤(华北区)店长培训交流会完满举行</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#"  title="">
+                    <h3>欣奕除疤(华北区)店长培训交流会完满举行</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+        </ul>
+        <div class="cl"></div>
+        <ul class="tabCommon" style="display:none;">
+            <li>
+                <a href="newsCommon.html"  title="">
+                    <h3>欣奕除疤(华北区)店2</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#"  title="">
+                    <h3>欣奕除疤(华北区)店长培训2</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#"  title="">
+                    <h3>欣奕除疤(华北区)店长培训2</h3>
+                    <b>公司新闻&nbsp;&nbsp;2016.4.12</b>
+                    <img src="images/test/test1.jpg" />
+                </a>
+            </li>
+        </ul>
+        <div class="cl"></div>
+    </div>
+</div>
+<!--欣奕案例和效果对比-->
+<div class="case">
+    <ul class="tabTitles">
+        <li class="on"><a class="tabBtn" href="javascript:void(0);">经典案例</a></li>
+        <li class="ri"><a class="tabBtn" href="javascript:void(0);">效果对比</a></li>
+        <a class="more" href="case.html" >更多+</a>
+    </ul>
+    <div class="tabMain">
+        <div class="caseMain" id="caseMain">
+            <div class="listMain">
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+                <div class="caseBPic">
+                    <a href="#" ><img src="images/test/case1.jpg" /></a>
+                </div>
+            </div>
+            <ul class="caseMPic">
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+                <li><a href="javascript:void(0);"><i></i><img src="images/test/mPic.jpg" /><h4>蝶变人物张怡筠</h4></a></li>
+            </ul>
+            <div class="cl"></div>
+        </div>
+        <div class="caseMain" style="display:none; width:100%; padding:1rem 0%;">
+            <ul class="duibi">
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        <img src="images/test/test2.jpg" />
+                        <h3>妊辰纹案例</h3>
+                        <p>消除妊娠纹  恢复光洁小腹</p>
+                    </a>
+                </li>
+                <div class="cl"></div>
+            </ul>
+            <a class="clickMore">展开更多案例</a>
+        </div>
+    </div>
+</div>
+<!--门店查询-->
+<article class="mdSearch">
+    <h2>门店查询<b>22省72城210家</b></h2>
+    <label class="addressBtn">
+        <font class="choose">请选择位置</font>
+    </label>
+</article>
+<!--星级服务-->
+<div class="service">
+    <h2>星级服务环境</h2>
+    <div id="marquee1" class="marqueeleft">
+        <div style="width:8000px; overflow:hidden;">
+            <ul id="marquee1_1">
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+                <li>
+                    <img src="images/test/sliderPic.jpg" alt="测试图片" />
+                    <b>形象墙</b>
+                </li>
+            </ul>
+            <ul id="marquee1_2"></ul>
+        </div>
+    </div><!--marqueeleft end-->
+    <script type="text/javascript">marqueeStart(1, "left");</script>
+</div>
+<!--底部部分-->
+<footer class="foot">
+    <div class="footB">
+        <a href="bahenzice.html" >疤痕自测</a>|
+        <a href="askAnwser.html" >你问我答</a>|
+        <a href="#" >费用查询</a>
+    </div>
+    <font>400-668-8162</font>
+    <p class="bq">Copyright ©2016 欣奕除疤 版权所有</p>
+</footer>
+<div class="menuPops"></div>
+<div class="menuPop">
+    <ul class="footA">
+        <li>
+            <a class="footOne" href="#" >
+                <h3>联系QQ</h3>
+            </a>
+        </li>
+        <li>
+            <a class="footTwo" href="#" >
+                <h3>在线客服</h3>
+            </a>
+        </li>
+        <li>
+            <a class="footThree" href="#" >
+                <h3>电话咨询</h3>
+            </a>
+        </li>
+        <li>
+            <a class="footFour" href="addressSearch.html" >
+                <h3>门店查询</h3>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--地址弹窗-->
+<div class="bg">
+    <div class="popAddress" style="display:none;">
+        <form action="addressSearch.html">
+            <label class="btn">
+                <input class="reset" type="reset" name="reset" value="取消" />
+                <input class="submit" type="submit" name="submit" value="确定" />
+            </label>
+            <label class="textBox">
+                <select class="sheng">
+                    <option>河南省</option>
+                    <option>湖北省</option>
+                    <option>广东省</option>
+                </select>
+                <select class="shi">
+                    <option>郑州市</option>
+                    <option>信阳市</option>
+                    <option>漯河市</option>
+                </select>
+                <select class="qu">
+                    <option>金水区</option>
+                    <option>高新区</option>
+                    <option>二七区</option>
+                </select>
+            </label>
+        </form>
+    </div>
+</div>
+<!--广告弹窗-->
+<div class="guanggao" style="display:none;">
+    <div class="guanggaoMain">
+        <a href="#"><img src="images/popMain.png" /></a>
+        <i class="ggClose"></i>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //轮播图
+    TouchSlide({
+        slideCell: "#wrapperFocus",
+        titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell: ".bd ul",
+        effect: "left",
+        autoPlay: true,//自动播放
+        autoPage: true, //自动分页
+        switchLoad: "_src" //切换加载，真实图片路径为"_src" 
+    });
+</script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+    //选项卡
+    jQuery(".caseMain").slide({ titCell: "ul.caseMPic li", mainCell: ".listMain", autoPlay: true, trigger: "click" });
+</script>
+<script type="text/javascript">
+    window.onload = function () {
+        var wrapperFocus = document.getElementById("wrapperFocus");
+        var winWidth = window.innerWidth || document.body.clientWidth;
+        wrapperFocus.style.height = winWidth * 0.5625 + "px";
+    }
+    //a链接切换
+    function ljOne() {
+        var atabTitle = $("ul.tabTitle").find("a.more");
+        atabTitle.attr("href", "news.html");
+    }
+    function ljTwo() {
+        var atabTitle = $("ul.tabTitle").find("a.more");
+        atabTitle.attr("href", "newsList.html");
+    }
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //首页广告弹窗
+    function ggPop() {
+        var winWid = $(window).width();
+        var winHei = $(window).height();
+        if (winWid <= 640) {
+            $("body").eq(0).css("overflow", "hidden");
+            $("body").bind("touchmove", function (event) {
+                event.preventDefault;
+            }, false);
+            $(".guanggao").show(50, function () {
+                $(".ggClose").click(function () {
+                    $(".guanggao").hide(50);
+                    $("body").unbind("touchmove");
+                    $("body").eq(0).css("overflow", "auto");
+                });
+            }).css({
+                height: winHei + "px",
+                top: $(window).scrollTop()
+            });
+
+        } else {
+            $(".guanggao").hide(50);
+        }
+    }
+    ggPop();
+});
+</script>
+</body>
+</html>

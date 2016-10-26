@@ -1,0 +1,1232 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.4.12
+    作者：王勇
+    用途：欣奕除疤手机版其他相关样式
+*/
+
+/*----------文章搜索页样式----------*/
+/*头部样式*/
+header.searchHead{
+    width:96%;
+    min-height:2rem;
+    background:#286bce;
+    padding:0.6rem 2%;
+    position:relative;
+    line-height:2rem;
+    text-align:center;
+    color:#fff;
+    font-size:1.4rem;
+}
+header.searchHead a.back{
+    width:10%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:left;
+    background:url(../images/other/otherBack.png) no-repeat center;
+    background-size:contain;
+}
+a.menuBtn{
+    width:8%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:right;
+    background:url(../images/other/otherMenu.png) no-repeat center;
+    background-size:contain;
+}
+
+/*服务项目栏目下的列表部分*/
+.serviceMenuL{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    margin-bottom:0.8rem;
+}
+.serviceMenuL h3.serviceT{
+    width:96%;
+    height:2.4rem;
+    line-height:2.4rem;
+    padding:0rem 2%;
+    color:#333;
+    font-size:1.2rem;
+    border-bottom:1px solid #dadada;
+}
+div.servicelist{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+}
+div.servicelist a{
+    width:30%;
+    height:2rem;
+    display:inline-block;
+    line-height:2rem;
+    text-align:center;
+    border:1px solid #999999;
+    border-radius:5px;
+    background:#fff;
+    color:#999;
+    margin:0.5rem 0.8%;
+}
+div.servicelist a:active{
+    color:#fff;
+    border:1px solid #286bce;
+    background:#286bce;
+}
+/*----关键词搜索部分-----*/
+.search{
+    width:96%;
+    min-height:2rem;
+    background:#fff;
+    padding:0.6rem 2%;
+}
+.search .searchL{
+    width:65%;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.1rem;
+    float:left;
+    overflow:hidden;
+}
+.search .searchL span{
+    width:30%;
+    height:2rem;
+    display:inline-block;
+    float:left;
+    color:#333;
+}
+.search .searchL a{
+    padding:0rem 0.1rem;
+    color:#666666;
+}
+.search .searchR{
+    width:34%;
+    height:2rem;
+    float:right;
+    border:1px solid #cccccc;
+    border-radius:10px;
+    background:url(../images/search.png) no-repeat 4% center;
+    background-size:14% 55%;
+}
+.search .searchR a{
+    display:block;
+    height:2rem;
+    color:#a2a2a2;
+    line-height:1.9rem;
+    padding-left:20%;
+    font-size:1rem;
+}
+/*---关键词搜索主体部分---*/
+.searchMain{
+    width:96%;
+    height:auto;
+    padding:1rem 2%;
+    background:#fff;
+}
+label.searchK{
+    width:100%;
+    height:2rem;
+    border:1px solid #c2c2c2;
+    border-radius:3px;
+    display:block;
+    line-height:2rem;
+}
+label.searchK input.text{
+    width:88%;
+    height:2rem;
+    float:left;
+    border-right:1px solid #c2c2c2;
+    color:#333;
+    font-size:1.1rem;
+    font-family:'Microsoft YaHei';
+    padding-left:2%;
+}
+label.searchK a.searchBtn{
+    width:9%;
+    height:2rem;
+    float:left;
+    background:url(../images/search.png) no-repeat center;
+    background-size:70% 80%;
+}
+div.hotWord{
+    width:100%;
+    height:auto;
+    margin-top:1rem;
+}
+div.hotWord span{
+    color:#a2a2a2;
+    display:block;
+    height:3rem;
+    line-height:3rem;
+    font-size:1.2rem;
+}
+div.hotWord a{
+    width:30%;
+    height:1.6rem;
+    line-height:1.6rem;
+    display:inline-block;
+    border:1px solid #bfbfbf;
+    border-radius:15px;
+    text-align:center;
+    font-size:1rem;
+    color:#a2a2a2;
+    margin:0.5rem 0.8%;
+}
+
+/*----------------文章搜索结果页部分-------------------*/
+.searchMainB{
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+}
+font.mations{
+    width:96%;
+    height:2.6rem;
+    display:block;
+    padding:0rem 2%;
+    color:#666666;
+    font-size:1.2rem;
+    line-height:2.6rem;
+}
+font.mations b{
+    color:#e4393c;
+    font-weight:bold;
+}
+div.searchList{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+}
+div.searchList h3{
+    height:2.4rem;
+    line-height:2.4rem;
+    border-bottom:1px solid #dadada;
+    color:#333;
+    font-weight:bold;
+    font-size:1.2rem;
+    padding:0rem 2%;
+}
+ul.searchListMain{
+    width:100%;
+    height:auto;
+}
+ul.searchListMain li{
+    width:96%;
+    height:auto;
+    padding:0.8rem 2% 0.5rem 2%;
+    border-bottom:1px solid #f6f6f6;
+    position:relative;
+}
+ul.searchListMain li h4{
+    width:75%;
+    height:3.2rem;
+    line-height:1.6rem;
+    color:#333;
+    font-size:1.2rem;
+    float:left;
+    overflow:hidden;
+    margin-right:1%;
+}
+ul.searchListMain li b{
+    width:75%;
+    height:1rem;
+    line-height:1rem;
+    font-size:1rem;
+    color:#999;
+    float:left;
+    margin-right:1%;
+}
+ul.searchListMain li img{
+    width:24%;
+    height:auto;
+    display:inline-block;
+    max-width:104px;
+    max-height:80px;
+}
+
+/*------------门店搜索部分-------------*/
+article.mdSearch{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    padding:0.5rem 0%;
+}
+label.addressBtn{
+    width:96%;
+    height:3rem;
+    display:block;
+    line-height:3rem;
+    margin:1rem auto;
+    border:1px solid #cccccc;
+    border-radius:5px;
+    background:#fff url(../images/xl.png) no-repeat 97% center;
+}
+label.addressBtn font.choose{
+    display:block;
+    color:#333;
+    font-size:1.4rem;
+    padding-left:8%;
+    background:url(../images/address.png) no-repeat 3% center;
+    background-size:4% 47%;
+}
+article.addressMain{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 0%;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    margin-bottom:0.5rem;
+}
+h4.tit{
+    max-height:4rem;
+    line-height:2rem;
+    color:#333;
+    font-size:1.2rem;
+    padding:0rem 2%;
+    font-weight:bold;
+    overflow:hidden;
+}
+p.add{
+    color:#666;
+    font-size:1.1rem;
+    padding:0rem 2%;
+    line-height:1.6rem;
+}
+article.addressMain b.mem{
+    color:#286bce;
+    font-size:1rem;
+    height:2rem;
+    line-height:2rem;
+    display:block;
+    padding:0rem 2% 0rem 8%;
+    background:url(../images/other/phon.png) no-repeat 2% center;
+    background-size:5% 70%;
+    border-bottom:1px solid #dadada;
+    margin-bottom:0.5rem;
+}
+article.addressMain a.yuyue{
+    height:2rem;
+    float:left;
+    margin-left:2%;
+    line-height:2rem;
+    font-size:1.2rem;
+    display:block;
+    border-radius:3px;
+    width:22%;
+    color:#fff;
+    background:#286bce url(../images/other/yuyueB.png) no-repeat 8% center;
+    background-size:13% 45%;
+    padding-left:8%
+}
+article.addressMain a.bdMap{
+    height:2rem;
+    float:left;
+    margin-left:2%;
+    line-height:2rem;
+    font-size:1.2rem;
+    display:block;
+    border-radius:3px;
+    width:22%;
+    border:1px solid #cccccc;
+    color:#666666;
+    background:url(../images/other/bdMap.png) no-repeat 8% center;
+    background-size:13% 50%;
+    padding-left:8%
+}
+/*----------我要预约部分----------*/
+article.orderMain{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    padding:0.5rem 0%;
+}
+div.orderT{
+    width:100%;
+    height:auto;
+    border-bottom:1px solid #dadada;
+    padding-bottom:0.5rem;
+}
+div.textMain{
+    width:100%;
+    height:auto;
+    padding:1.4rem 0rem 1rem 0rem;
+}
+h2.orderTit{
+    height:2rem;
+    line-height:2rem;
+    font-size:1.2rem;
+    color:#333;
+    font-weight:bold;
+    padding:0rem 2%;
+}
+p.tishi{
+    line-height:1.4rem;
+    font-size:1rem;
+    padding:0rem 2% 0.5rem 2%;
+    color:#666;
+    border-bottom:1px solid #f6f6f6;
+}
+div.phon{
+    width:96%;
+    height:3rem;
+    padding:0.5rem 2%;
+    border-bottom:1px solid #f6f6f6;
+}
+div.phon span{
+    width:50%;
+    height:3rem;
+    float:left;
+    line-height:1.4rem;
+    font-size:1.2rem;
+    color:#666;
+}
+div.phon span b{
+    display:block;
+    height:1.6rem;
+    line-height:1.6rem;
+    color:#286bce;
+    font-weight:bold;
+}
+div.phon a{
+    width:40%;
+    height:3rem;
+    line-height:3rem;
+    font-size:1.2rem;
+    font-weight:bold;
+    float:left;
+    color:#286bce;
+    padding-left:10%;
+    background:url(../images/other/phon.png) no-repeat 5% center;
+    background-size:12% 50%;
+}
+.callBack{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+    border-bottom:1px solid #f6f6f6;
+}
+.callBack span.call{
+    display:block;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.2rem;
+    color:#666;
+}
+.callBack label.phonText{
+    width:100%;
+    height:2rem;
+    display:block;
+    border-radius:3px;
+    line-height:2rem;
+}
+input.phoneNember{
+    width:72%;
+    height:1.86rem;
+    color:#333;
+    display:inline-block;
+    font-family:'Microsoft YaHei';
+    font-size:1.1rem;
+    float:left;
+    background:#fff;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:none;
+    border-bottom:1px solid #ccc;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    padding-left:2%;
+}
+input.tijiao{
+    width:25%;
+    height:2rem;
+    display:inline-block;
+    font-family:'Microsoft YaHei';
+    font-size:1.2rem;
+    color:#fff;
+    float:left;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    background:#286bce;
+}
+b.yqts{
+    display:block;
+    line-height:2rem;
+    color:#666666;
+    font-size:1rem;
+    margin-top:0.5rem;
+}
+.onlineOrder{
+    width:100%;
+    height:auto;
+    padding:0.5rem 0%;
+}
+.onlineOrder a{
+    width:30%;
+    height:auto;
+    display:inline-block;
+    margin:1rem 8%;
+}
+.onlineOrder a.forQQ img{
+    width:100%;
+    height:auto;
+}
+.onlineOrder a.forServer img{
+    width:100%;
+    height:auto;
+}
+/*百度门店地图*/
+a.yuyues{
+    width:96%;
+    height:2rem;
+    display:block;
+    line-height:2rem;
+    border:1px solid #cccccc;
+    border-radius:3px;
+    margin:0rem 2%;
+    text-align:center;
+    color:#666666;
+    font-size:1.2rem;
+    background:url(../images/other/yuyue.png) no-repeat 36% center;
+    background-size:5% 44%;
+}
+article.addressMain b.map{
+    color:#286bce;
+    font-size:1rem;
+    height:2rem;
+    line-height:2rem;
+    display:block;
+    padding:0rem 2% 0rem 8%;
+    background:url(../images/other/phon.png) no-repeat 2% center;
+    background-size:5% 70%;
+    margin-bottom:0.5rem;
+}
+div.mapPic{
+    width:96%;
+    height:auto;
+    padding:1rem 2% 0.5rem 2%;
+    border-top:1px solid #dadada;
+    margin-top:1rem;
+}
+div.mapPic img{
+    width:100%;
+    height:auto;
+    border:1px solid #dadada;
+}
+/*--------疤痕自测部分---------*/
+article.bhTest{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+}
+article.bhTest img.topPic{
+    width:100%;
+    height:auto;
+    max-width:640px;
+    max-height:472px;
+}
+article.bhTest h2.biaoti{
+    height:4rem;
+    line-height:4rem;
+    position:relative;
+    text-align:center;
+    color:#666666;
+    font-size:1.2rem;
+    border-bottom:1px solid #dadada;
+    margin-bottom:2.5rem;
+}
+article.bhTest h2.biaoti b{
+    width:44%;
+    height:2rem;
+    display:block;
+    line-height:2rem;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    left:28%;
+    top:3rem;
+    background:#286bce;
+    font-size:1.4rem;
+}
+article.bhTest label.chooseList{
+    width:96%;
+    height:auto;
+    display:block;
+    padding:1rem 2%;
+    border-bottom:1px solid #dadada;
+    line-height:2rem;
+}
+article.bhTest label.chooseList span{
+    display:block;
+    color:#286bce;
+    font-size:1.2rem;
+    height:2rem;
+    line-height:2rem;
+}
+article.bhTest label.chooseList input[name="yuanyin"]{
+    width:15px;
+    height:15px;
+    margin:0rem 1% 0rem 7%;
+    font-size:1.2rem;
+    display:inline-block;
+    -webkit-appearance:radio
+}
+article.bhTest label.chooseList input[name="time"]{
+    width:15px;
+    height:15px;
+    margin:0rem 1% 0rem 7%;
+    font-size:1.2rem;
+    display:inline-block;
+    -webkit-appearance:radio
+}
+article.bhTest label.chooseList input[name="color"]{
+    width:15px;
+    height:15px;
+    margin:0rem 1% 0rem 7%;
+    font-size:1.2rem;
+    display:inline-block;
+    -webkit-appearance:radio
+}
+article.bhTest label.chooseList input[name="du"]{
+    width:15px;
+    height:15px;
+    margin:0rem 1% 0rem 7%;
+    font-size:1.2rem;
+    display:inline-block;
+    -webkit-appearance:radio
+}
+div.imformation{
+    width:96%;
+    height:auto;
+    margin:0.5rem auto 0rem auto;
+    background:#eeeeee;
+    border:1px solid #dcdcdc;
+    border-radius:5px;
+}
+div.imformation h3.mationT{
+    width:96%;
+    height:3rem;
+    line-height:3rem;
+    padding:0rem 2%;
+    text-align:center;
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#333333;
+}
+div.imformation h3.mationT b.mationTL{
+    width:30%;
+    height:1px;
+    float:left;
+    border-top:1px solid #dadada;
+    margin-top:1.6rem;
+}
+div.imformation h3.mationT b.mationTR{
+    width:30%;
+    height:1px;
+    float:right;
+    border-top:1px solid #dadada;
+    margin-top:1.6rem;
+}
+div.imformation label.text{
+    width:96%;
+    height:3.6rem;
+    display:block;
+    padding:0rem 2%;
+    margin-bottom:0.5rem;
+}
+div.imformation label.text span,label.address span.city{
+    display:block;
+    height:1.4rem;
+    line-height:1.4rem;
+    font-size:1.1rem;
+    color:#666666;
+    text-align:left;
+}
+div.imformation label.text input{
+    width:98%;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.1rem;
+    color:#666666;
+    background:#fff;
+    border:1px solid #dcdcdc;
+    border-radius:3px;
+    padding-left:2%;
+    font-family:'Microsoft YaHei';
+}
+label.address{
+    width:96%;
+    height:3.6rem;
+    display:block;
+    padding:0rem 2%;
+    margin-bottom:0.5rem;
+}
+select.chengshi{
+    width:30%;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.1rem;
+    color:#666666;
+    background:#fff;
+    border:1px solid #dcdcdc;
+    border-radius:3px;
+    margin-right:2%;
+    outline:none;
+    font-family:'Microsoft YaHei';
+}
+.bhTest label.tj{
+    width:96%;
+    height:2.4rem;
+    display:block;
+    line-height:2.4rem;
+    background:#286bce;
+    margin:1rem auto;
+    border-radius:3px;
+}
+.bhTest label.tj input{
+    width:100%;
+    height:2.4rem;
+    text-align:center;
+    color:#fff;
+    font-size:1.2rem;
+    font-family:'Microsoft YaHei';
+}
+
+/*-----联系我们部分-----*/
+div.fangshi{
+    width:96%;
+    min-height:3.2rem;
+    line-height:3.2rem;
+    color:#666666;
+    font-size:1.1rem;
+    padding:0rem 2%;
+    border-bottom:1px solid #f6f6f6;
+}
+div.fangshi span{
+    width:22%;
+    height:2.4rem;
+    float:left;
+    text-align:right;
+}
+div.fangshi b.colorL{
+    float:left;
+    width:70%;
+    height:2.4rem;
+    color:#286bce;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+div.fangshi b.colorN{
+    float:left;
+    width:70%;
+    display:block;
+    height:2.4rem;
+    color:#333333;
+    font-size:1.1rem;
+}
+div.fangshi i{
+    float:right;
+    width:6%;
+    height:1.8rem;
+    margin-top:0.7rem;
+    display:block;
+}
+div.fangshi i.serviceHot{
+    background:url(../images/other/serviceHot.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.guhua{
+    background:url(../images/other/guhua.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.tousu{
+    background:url(../images/other/tousu.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.zhaoshang{
+    background:url(../images/other/zhaoshang.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.emails{
+    background:url(../images/other/email.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.weibo{
+    background:url(../images/other/weibo.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi i.tieba{
+    background:url(../images/other/tieba.png) no-repeat center;
+    background-size:contain;
+}
+div.fangshi a.tz{
+    width:30%;
+    height:auto;
+    display:block;
+    float:left;
+    margin-top:0.65rem;
+}
+div.fangshi a.tz img{
+    width:100%;
+    height:auto;
+}
+div.fangshi div.textQQ{
+    width:45%;
+    float:right;
+    height:auto;
+}
+div.fangshi div.textQQ font{
+    color:#333;
+    font-size:1.1rem;
+    font-weight:bold;
+    line-height:1.2rem;
+}
+div.fangshi div.textQQ font b{
+    display:block;
+    color:#ff6565;
+}
+div.fangshi div.textQQ p{
+    color:#999999;
+    font-size:1.1rem;
+    line-height:1.4rem;
+    margin-top:0.5rem;
+}
+/*--留言内容部分--*/
+article.talkOnLine{
+    width:100%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    margin-top:0.8rem;
+}
+article.talkOnLine h3{
+    height:2.4rem;
+    line-height:2.4rem;
+    border-bottom:1px solid #dadada;
+    color:#333;
+    font-weight:bold;
+    font-size:1.2rem;
+    padding:0rem 2%;
+}
+label.nameWord{
+    width:96%;
+    min-height:4.2rem;
+    padding:0rem 2%;
+    margin:0.8rem 0rem;
+    display:block;
+    overflow:hidden;
+}
+label.nameWord span{
+    display:block;
+    line-height:2rem;
+    color:#666;
+    font-size:1.2rem;
+}
+label.nameWord input.texKu{
+    width:98%;
+    height:2.4rem;
+    line-height:2.4rem;
+    padding-left:2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei';
+    font-size:1.1rem;
+    color:#333;
+}
+article.talkOnLine input.submit{
+    width:96%;
+    height:2.4rem;
+    display:block;
+    text-align:center;
+    line-height:2.4rem;
+    background:#286bce;
+    border-radius:3px;
+    margin:1rem auto;
+    color:#fff;
+    font-size:1.2rem;
+    font-family:'Microsoft YaHei';
+}
+label.nameWord b.js{
+    font-size:1.1rem;
+    color:#e4393c;
+    line-height:1.1rem;
+    display:block;
+    margin-top:0.3rem;
+}
+label.nameWord textarea.textArea{
+    width:96%;
+    height:4rem;
+    line-height:1.2rem;
+    padding:0.2rem 2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei';
+    font-size:1.1rem;
+    color:#333;
+}
+/*----------你问我答部分----------*/
+article.askAnwser{
+    width:100%;
+    height:auto;
+}
+div.askAnwserTop{
+     width:100%;
+     height:auto;
+     padding:0rem 0rem 0.8rem;
+     background:#fff;
+     border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+ }
+div.askAnwserTop img.topPic{
+    width:100%;
+    height:auto;
+    margin-bottom:1rem;
+}
+article.askAnwser h2.proList{
+    width:100%;
+    height:3rem;
+    line-height:3rem;
+    text-align:center;
+    font-size:1.4rem;
+    font-weight:bold;
+    color:#333333;
+}
+article.askAnwser h2.proList b.mationTL{
+    width:35%;
+    height:1px;
+    float:left;
+    border-top:1px solid #dadada;
+    margin-top:1.6rem;
+}
+article.askAnwser h2.proList b.mationTR{
+    width:35%;
+    height:1px;
+    float:right;
+    border-top:1px solid #dadada;
+    margin-top:1.6rem;
+}
+label.nameWord input.texKus{
+    width:33%;
+    height:2.4rem;
+    line-height:2.4rem;
+    padding-left:2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei';
+    float:left;
+    margin-right:1%;
+    font-size:1.1rem;
+    color:#333;
+    display:block;
+}
+label.nameWord input.texKust{
+    width:70%;
+    height:2.4rem;
+    line-height:2.4rem;
+    padding-left:2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei'; 
+    float:left;
+    font-size:1.1rem;
+    color:#333;
+}
+label.nameWord input.searchs{
+    width:25%;
+    height:2.4rem;
+    line-height:2.4rem;
+    text-align:center;
+    background:#286bce;
+    border-radius:3px;
+    float:right;
+    color:#fff;
+    font-size:1.1rem;
+}
+/*问答主体部分*/
+div.qa{
+    width:100%;
+    height:auto;
+    padding:0rem 0% 0.8rem;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    margin-top:0.8rem;
+
+}
+div.qaMain{
+    width:96%;
+    height:auto;
+    border-bottom:1px solid #dadada;
+    padding:0.8rem 2%;
+    margin-bottom:0.8rem;
+}
+div.qaMain span{
+    width:100%;
+    height:2.4rem;
+    line-height:2.4rem;
+    color:#286bce;
+    font-size:1.2rem;
+    display:block;
+    overflow:hidden;
+}
+div.qaMain span b.ask{
+    display:inline-block;
+    width:6%;
+    height:1.5rem;
+    color:#fff;
+    text-align:center;
+    line-height:1.5rem;
+    font-size:1rem;
+    background:#286bce;
+    border-radius:50%;
+    margin-right:1%;
+}
+div.qaTextMain{
+    width:100%;
+    height:auto;
+    margin-top:0.3rem;
+}
+div.qaTextMain b.da{
+    display:inline-block;
+    width:6%;
+    height:1.5rem;
+    color:#fff;
+    text-align:center;
+    line-height:1.5rem;
+    font-size:1rem;
+    background:#666666;
+    border-radius:50%;
+    margin-right:1%;
+}
+div.qaTextMain p{
+    width:92%;
+    height:auto;
+    line-height:1.6rem;
+    font-size:1.1rem;
+    color:#666666;
+    float:right;
+}
+div.qaTextMain p a{
+    color:#286bce;
+}
+div.qaMain font.time{
+    display:block;
+    height:2.4rem;
+    line-height:2.4rem;
+    text-align:right;
+    font-size:1.1rem;
+    color:#999;
+    margin-top:0.3rem;
+}
+div.qaMain font.time i.bgTime{
+    width:5%;
+    height:50%;
+    display:inline-block;
+    margin-right:2%;
+    background:url(../images/other/time.png) no-repeat center;
+    background-size:contain;
+    vertical-align:middle;
+}
+div.qa a.loadMore{
+    width:100%;
+    height:2.4rem;
+    display:block;
+    line-height:2.4rem;
+    text-align:center;
+    color:#999;
+    font-size:1.1rem;
+}
+/*我要提问部分*/
+div.toAsk{
+    width:100%;
+    height:auto;
+    background:#2f3a4c;
+    margin-top:0.8rem;
+    padding:0.5rem 0rem 0.8rem;
+}
+article.askAnwser h2.proLists{
+    width:100%;
+    height:3rem;
+    line-height:3rem;
+    text-align:center;
+    font-size:1.4rem;
+    font-weight:bold;
+    color:#fff;
+}
+article.askAnwser h2.proLists b.mationTL{
+    width:35%;
+    height:1px;
+    float:left;
+    border-top:1px solid #636a77;
+    margin-top:1.6rem;
+}
+article.askAnwser h2.proLists b.mationTR{
+    width:35%;
+    height:1px;
+    float:right;
+    border-top:1px solid #636a77;
+    margin-top:1.6rem;
+}
+label.nameWords{
+    width:96%;
+    min-height:4.2rem;
+    padding:0rem 2%;
+    margin:0.8rem 0rem;
+    display:block;
+}
+label.nameWords span{
+    display:block;
+    line-height:2rem;
+    color:#fff;
+    font-size:1.2rem;
+}
+label.nameWords input.texKu{
+    width:98%;
+    height:2.4rem;
+    line-height:2.4rem;
+    padding-left:2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei';
+    background:#fff;
+    color:#333;
+    font-size:1.1rem;
+}
+label.nameWords textarea.textArea{
+    width:96%;
+    height:4rem;
+    line-height:1.2rem;
+    padding:0.2rem 2%;
+    border:1px solid #ccc;
+    border-radius:3px;
+    font-family:'Microsoft YaHei';
+    font-size:1.1rem;
+    color:#333;
+}
+div.toAsk input.submit{
+    width:96%;
+    height:2.4rem;
+    display:block;
+    text-align:center;
+    line-height:2.4rem;
+    background:#286bce;
+    border-radius:3px;
+    margin:1rem auto;
+    color:#fff;
+    font-size:1.2rem;
+    font-family:'Microsoft YaHei';
+}
+label.nameWords b.js{
+    font-size:1.1rem;
+    color:#fff;
+    line-height:1.1rem;
+    display:block;
+    margin-top:0.3rem;
+}
+/*专题活动*/
+div.zhuantiBtn{
+    width:100%;
+    height:2.4rem;
+    padding:1rem 0rem 0rem;
+    text-align:center;
+}
+div.zhuantiBtn a{
+    width:30%;
+    height:2.4rem;
+    line-height:2.5rem;
+    display:inline-block;
+    border-radius:3px;
+    text-align:center;
+    font-size:1.2rem;
+    color:#fff;
+    background:#286bce;
+    margin:0rem auto;
+}
+div.zhuantiMain{
+    width:96%;
+    height:auto;
+    
+}
+ul.slideMain{
+    width:100%;
+    height:auto;
+}
+ul.slideMain li{
+    width:96%;
+    height:auto;
+    border-bottom:1px solid #dadada;
+    padding:1rem 2%;
+}
+ul.slideMain li a{
+    display:block;
+}
+ul.slideMain li a img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+ul.slideMain li a h4{
+    height:2rem;
+    line-height:2rem;
+    color:#000000;
+    font-size:1.2rem;
+    text-align:center;
+    margin-top:0.5rem;
+}
+ul.slideMain li a p{
+    color:#666666;
+    font-size:1.1rem;
+    line-height:1.6rem;
+    max-height:3.2rem;
+    overflow:hidden;
+}
+/*门店查询部分*/
+article.xingji{
+    width:96%;
+    height:auto;
+    background:#fff;
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 1px #edecec;
+    margin-top:0.8rem;
+    padding:1rem 2%;
+}
+ul.xj{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    padding:3% 0rem;
+}
+ul.xj li{
+    width:32%;
+    height:auto;
+    float:left;
+    margin:1% 0.6%;
+}
+ul.xj li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+ul.xj li b{
+    display:block;
+    height:2.4rem;
+    line-height:2.4rem;
+    text-align:center;
+    color:#666;
+    font-size:1.1rem;
+    overflow:hidden;
+}

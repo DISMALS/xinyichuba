@@ -1,0 +1,657 @@
+﻿@charset "UTF-8";
+
+/*
+    制作时间：2016-05-12
+    作者：王勇
+    用途：欣奕除疤5天疗程体验卡专题页面样式
+*/
+/*头部样式*/
+header.searchHead{
+    width:96%;
+    min-height:2rem;
+    background:#286bce;
+    padding:0.6rem 2%;
+    position:relative;
+    line-height:2rem;
+    text-align:center;
+    color:#fff;
+    font-size:1.4rem;
+}
+header.searchHead a.back{
+    width:10%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:left;
+    background:url(../images/otherBack.png) no-repeat center;
+    background-size:contain;
+}
+a.menuBtn{
+    width:8%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:right;
+    background:url(../images/otherMenu.png) no-repeat center;
+    background-size:contain;
+}
+/*----搜索部分-----*/
+.search{
+    width:96%;
+    min-height:2rem;
+    background:#fff;
+    padding:0.6rem 2%;
+}
+.search .searchL{
+    width:65%;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.1rem;
+    float:left;
+    overflow:hidden;
+}
+.search .searchL span{
+    width:30%;
+    height:2rem;
+    display:inline-block;
+    float:left;
+    color:#333;
+}
+.search .searchL a{
+    padding:0rem 0.1rem;
+    color:#666666;
+}
+.search .searchR{
+    width:34%;
+    height:2rem;
+    float:right;
+    border:1px solid #cccccc;
+    border-radius:10px;
+    background:url(../images/search.png) no-repeat 4% center;
+    background-size:14% 55%;
+}
+.search .searchR a{
+    display:block;
+    height:2rem;
+    color:#a2a2a2;
+    line-height:1.9rem;
+    padding-left:20%;
+    font-size:1rem;
+}
+/*模块一*/
+.mainOne{
+    width:100%;
+    height:auto;
+    background:url(../images/bannerBg.jpg) repeat left top;
+    padding-bottom:0.5rem;
+    position:relative;
+}
+.oneTop{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.oneMain{
+    width:96%;
+    height:auto;
+    background:#dc2c3b;
+    margin:-3rem auto 0rem;
+    position:relative;
+}
+.oneMainT{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.sj{
+    width:12%;
+    height:8%;
+    position:absolute;
+    right:5%;
+    top:35%;
+}
+.oneMainM{
+    width:92%;
+    height:auto;
+    padding:0.5rem 4%;
+    background:rgba(255,255,255,0.2);
+    margin-bottom:0.8rem;
+}
+.inputOne{
+    display:inline-block;
+    width:45%;
+    height:auto;
+    line-height:2.4rem;
+    font-size:1rem;
+    color:#000;
+    font-family:'Microsoft YaHei';
+}
+.inputOne input[name="userName"]{
+    width:98%;
+    height:2.4rem;
+    border:1px solid #f3b3b9;
+    border-radius:3px;
+    background:#fff;
+    padding-left:2%;
+    font-size:1rem;
+}
+.inputOne b{
+    font-size:1rem;
+    color:#fff;
+}
+.inputOne input[name="sex"]{
+    margin:0.5rem 0.1rem;
+    width:15px;
+    height:15px;
+    -webkit-appearance:radio;
+}
+.pd{
+    width:44%;
+    padding-left:5%;
+}
+.inputTwo{
+    display:block;
+    width:100%;
+    height:auto;
+    line-height:2.4rem;
+    font-family:'Microsoft YaHei';
+    margin:0.5rem 0rem;
+}
+.inputTwo input[name="phon"]{
+    width:98%;
+    height:2.4rem;
+    font-size:1rem;
+    color:#000;
+    border:1px solid #f3b3b9;
+    border-radius:3px;
+    background:#fff;
+    padding-left:2%;
+}
+.inputTwo input[name="baoming"]{
+    width:100%;
+    height:2.4rem;
+    text-align:center;
+    font-size:1.1rem;
+    color:#000;
+    font-weight:bold;
+    border-radius:3px;
+    background:#f5c300;
+}
+.oneMainB{
+    width:92%;
+    height:auto;
+    padding:0rem 4% 0.5rem;
+}
+.oneMainB img{
+    width:100%;
+    display:block;
+}
+
+.ggOne{
+    width:100%;
+    height:auto;
+}
+.ggOne img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*模块二*/
+.mainTwo{
+    width:96%;
+    height:auto;
+    background:#fff;
+    padding:2rem 2%;
+}
+.twoTop{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.twoMain{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    border-radius:14px;
+    background:#333333 url(../images/choose4.jpg) no-repeat center top;
+    background-size:contain;
+    padding-top:15rem;
+    margin-top:1.5rem;
+}
+.twoMain img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.twoMain p{
+    font-size:1.3rem;
+    color:#fff;
+    line-height:2rem;
+    text-align:center;
+    padding:0.7rem 15%;
+}
+.fontOne{
+    color:#f5c300;
+    font-size:1.6rem;
+}
+.fontTwo{
+    font-size:1.1rem;
+}
+.fontThree{
+    font-size:1.05rem;
+    color:#f5c300;
+    font-weight:bold;
+}
+/*模块三*/
+.mainThree{
+    width:100%;
+    height:auto;
+    background:#fdf3cc;
+    padding:1rem 0%;
+}
+.titleThree,.titleSix{
+    display:block;
+    width:100%;
+    height:5rem;
+    line-height:5rem;
+    border-bottom:1px solid #e3dab7;
+    text-align:center;
+    font-size:2.2rem;
+    color:#333;
+    position:relative;
+}
+.titleThree b,.titleSix b{
+    color:#dc2c3b;
+    font-weight:bold;
+}
+.titleThree .ms{
+    display:block;
+    width:42%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:27%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.threeMain{
+    width:96%;
+    height:auto;
+    display:block;
+    margin:2.2rem auto;
+}
+.threeB{
+    width:65%;
+    height:3.5rem;
+    text-align:center;
+    display:block;
+    background:#f5c300;
+    font-size:1rem;
+    color:#000;
+    border-radius:30px;
+    margin:0rem auto;
+    line-height:2rem;
+}
+.threeB b{
+    display:block;
+    height:1.5rem;
+    line-height:1rem;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.ggTwo{
+    width:96%;
+    height:auto;
+    display:block;
+    margin:0.5rem auto 0.5rem;
+}
+.ggTwo img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+/*模块四*/
+.mainFour{
+    width:100%;
+    height:auto;
+    background:#dc2d3b;
+    padding:1rem 0%;
+}
+.titleFour{
+    display:block;
+    width:100%;
+    height:5rem;
+    line-height:5rem;
+    border-bottom:1px solid #e0424f;
+    text-align:center;
+    font-size:2.2rem;
+    color:#fff;
+    position:relative;
+}
+.titleFour b{
+    color:#f5c300;
+    font-weight:bold;
+}
+.titleFour .ms{
+    display:block;
+    width:42%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:27%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#333333;
+    background:#f5c300;
+    padding:0.2rem 2%;
+}
+.fourMainList{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin:1rem auto 0.5rem;
+}
+.fourMainList li{
+    width:31.3%;
+    height:auto;
+    float:left;
+    margin:0.5rem 1%;
+    text-align:center;
+}
+.fourMainList li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.fourMainList li b{
+    display:block;
+    font-size:1.4rem;
+    color:#f5c300;
+    line-height:1.8rem;
+    font-weight:bold;
+}
+.fourMainList li em{
+    display:block;
+    font-size:1rem;
+    color:#fff;
+    line-height:1.2rem;
+}
+/*模块五*/
+.mainFive{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:1rem 0%;
+}
+.titleFive,.titleEight,.titleNine,.titleTen{
+    display:block;
+    width:100%;
+    height:5rem;
+    line-height:5rem;
+    border-bottom:1px solid #e5e5e5;
+    text-align:center;
+    font-size:2.2rem;
+    color:#333333;
+    position:relative;
+}
+.titleFive b,.titleEight b,.titleNine b,.titleTen b{
+    color:#dc2c3b;
+    font-weight:bold;
+}
+.titleFive .ms{
+    display:block;
+    width:42%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:27%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.fiveMain{
+    width:92%;
+    height:auto;
+    margin:1.5rem auto 1rem;
+    background:url(../images/caseBg.jpg) repeat left top;
+    padding:0.25rem 2% 0.15rem;
+}
+.fiveMain li{
+    width:100%;
+    height:auto;
+    margin:0.25rem 0% 0.5rem;
+}
+.fiveMain li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*模块六*/
+.mainSix{
+    width:100%;
+    height:auto;
+    background:#fdf3cc;
+    padding:0.5rem 0rem;
+}
+.titleSix .ms{
+    display:block;
+    width:65%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:15.05%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.sixMain{
+    width:96%;
+    height:auto;
+    margin:2rem auto 0.5rem;
+    background:#fff;
+}
+.sixMainT{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-size:1.2rem;
+    overflow:hidden;
+    margin-bottom:0.25rem;
+}
+.sixMainT li{
+    width:50%;
+    min-height:2.125rem;
+    line-height:2.125rem;
+    float:left;
+}
+.sixMainT li a{
+    color:#fff;
+    background:#dcd0a3;
+    display:block;
+    border-bottom:3px solid #dc2d3b;
+    font-weight:bold;
+}
+.sixMainT li.on a{
+    color:#dc2c3b;
+    background:#fff;
+    border-top:3px solid #dc2d3b;
+    border-right:3px solid #dc2d3b;
+    border-bottom:none;
+    border-left:3px solid #dc2d3b;
+}
+.sixListMain{
+    width:100%;
+    height:auto;
+    padding-top:1rem;
+}
+.sixListMainO{
+    width:98%;
+    height:auto;
+    overflow:hidden;
+    padding:0rem 1% 0.25rem;
+}
+.sixListMainO li{
+    width:48%;
+    height:auto;
+    margin:0.25rem 1%;
+    float:left;
+}
+.sixListMainO li img{
+    width:100%;
+    height:auto;
+}
+/*模块七*/
+.sevenMain{
+    width:96%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 2%;
+}
+.sevenMain img{
+    width:100%;
+    height:auto;
+    display:block;
+    margin-bottom:0.2rem;
+}
+/*模块八*/
+.mainEight{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 0%;
+}
+.titleEight .ms{
+    display:block;
+    width:45%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:25.5%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.eightMain{
+    width:94%;
+    height:auto;
+    margin:1.5rem auto 0rem;
+    border:1px solid #e3e3e3;
+}
+.eightMain img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*模块九*/
+.mainNine{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 0%;
+}
+.titleNine .ms{
+    display:block;
+    width:45%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:25.5%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.nineMain{
+    width:96%;
+    height:auto;
+    margin:1.5rem auto 0rem;
+}
+.nineMain img{
+    width:100%;
+    height:auto;
+    display:block;
+    margin-bottom:0.3rem;
+}
+/*模块十*/
+.mainTen{
+    width:100%;
+    height:auto;
+    background:#ebebec;
+    padding:0.5rem 0%;
+}
+.titleTen .ms{
+    display:block;
+    width:30%;
+    height:1.3rem;
+    line-height:1.3rem;
+    position:absolute;
+    left:33%;
+    bottom:-0.85rem;
+    font-size:1rem;
+    color:#fff;
+    background:#dc2c3b;
+    padding:0.2rem 2%;
+}
+.tenMain{
+    width:96%;
+    height:auto;
+    margin:1.5rem auto 0rem;
+    overflow:hidden;
+}
+.tenMain li{
+    width:25%;
+    height:auto;
+    float:left;
+}
+.tenMain li img{
+    width:100%;
+    height:auto;
+}
+.tenMain li b{
+    display:block;
+    line-height:1.4rem;
+    text-align:center;
+    color:#666;
+    font-size:1rem;
+}
+.ggThree{
+    width:96%;
+    height:auto;
+    display:block;
+    margin:2rem auto;
+}
+.ggThree img{
+    display:block;
+    width:100%;
+    height:auto;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.25);
+}
+.tenB{
+    width:75%;
+    height:4rem;
+    text-align:center;
+    display:block;
+    background:#f5c300;
+    font-size:1.1rem;
+    color:#000;
+    border-radius:30px;
+    margin:0rem auto;
+    line-height:2rem;
+    padding-top:0.5rem;
+}
+.tenB b{
+    display:block;
+    height:1.5rem;
+    line-height:1rem;
+    font-size:1.6rem;
+    font-weight:bold;
+}

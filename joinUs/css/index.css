@@ -1,0 +1,817 @@
+﻿@charset "UTF-8";
+
+/*
+    制作时间：2016-05-12
+    作者：王勇
+    用途：欣奕除疤5天疗程体验卡专题页面样式
+*/
+.borderBottom{
+    border-bottom:1px solid #dbdbdb;
+    box-shadow:0px 0px 2px #dbdbdb;
+    margin-bottom:0.8rem;
+}
+/*头部样式*/
+header.searchHead{
+    width:96%;
+    min-height:2rem;
+    background:#286bce;
+    padding:0.6rem 2%;
+    position:relative;
+    line-height:2rem;
+    text-align:center;
+    color:#fff;
+    font-size:1.4rem;
+}
+header.searchHead a.back{
+    width:10%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:left;
+    background:url(../images/otherBack.png) no-repeat center;
+    background-size:contain;
+}
+a.menuBtn{
+    width:8%;
+    height:1.6rem;
+    margin-top:0.1rem;
+    float:right;
+    background:url(../images/otherMenu.png) no-repeat center;
+    background-size:contain;
+}
+/*----搜索部分-----*/
+.search{
+    width:96%;
+    min-height:2rem;
+    background:#fff;
+    padding:0.6rem 2%;
+}
+.search .searchL{
+    width:65%;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.1rem;
+    float:left;
+    overflow:hidden;
+}
+.search .searchL span{
+    width:30%;
+    height:2rem;
+    display:inline-block;
+    float:left;
+    color:#333;
+}
+.search .searchL a{
+    padding:0rem 0.1rem;
+    color:#666666;
+}
+.search .searchR{
+    width:34%;
+    height:2rem;
+    float:right;
+    border:1px solid #cccccc;
+    border-radius:10px;
+    background:url(../images/search.png) no-repeat 4% center;
+    background-size:14% 55%;
+}
+.search .searchR a{
+    display:block;
+    height:2rem;
+    color:#a2a2a2;
+    line-height:1.9rem;
+    padding-left:20%;
+    font-size:1rem;
+}
+/*banner部分*/
+.banner{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+.oneMain{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position:relative;
+}
+.slideMain{
+    position:relative; 
+    z-index:0;
+}
+.slideMain li{
+    position:relative;
+}
+.slideMain li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.oneTit{
+    width:20%;
+    height:1rem;
+    line-height:1rem;
+    text-align:center;
+    position:absolute;
+    bottom:0.3rem;
+    left:40%;
+}
+.oneTit li{
+    float:left;
+}
+.oneTit li{ 
+    display:inline-block; 
+    width:8px; 
+    height:8px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px; 
+    border-radius:5px; 
+    background:rgba(255,255,255,0.5); 
+    text-indent:-9999px; 
+    overflow:hidden; 
+    margin:0 6px;   
+}
+.oneTit li.on{ 
+    background:#fff;  
+}
+/*模块二*/
+.mainTwo{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 0%;
+}
+.joinUsTit{
+    width:100%;
+    height:2rem;
+    display:block;
+    line-height:2rem;
+    text-align:center;
+    color:#333;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.joinUsTit b{
+    display:block;
+    width:30%;
+    height:1px;
+    border-bottom:1px solid #dadada;
+    margin-top:0.8rem;
+}
+.joinUsTit b.left{
+    float:left;
+}
+.joinUsTit b.right{
+    float:right;
+}
+.twoMain{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2% 1.8rem;
+}
+.twoMain p{
+    font-size:1rem;
+    color:#333;
+    line-height:1.6rem;
+    text-indent:2rem;
+}
+.twoMainSlide{
+    padding:0.7rem 2%;
+    border:1px solid #dadada;
+    margin-top:0.6rem;
+    position:relative; 
+}
+.twoMainSlideM{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position:relative; 
+    z-index:0;
+}
+.twoMainSlideM li{
+    position:relative;
+}
+.twoMainSlideM li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.twoTit{
+    width:15%;
+    height:1rem;
+    line-height:1rem;
+    text-align:center;
+    position:absolute;
+    bottom:-1.7rem;
+    left:42.5%;
+}
+.twoTit li{
+    float:left;
+}
+.twoTit li{ 
+    display:inline-block; 
+    width:8px; 
+    height:8px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px; 
+    border-radius:5px; 
+    background:rgba(255,255,255,0); 
+    border:1px solid #313131;
+    text-indent:-9999px; 
+    overflow:hidden; 
+    margin:0 6px;   
+}
+.twoTit li.on{ 
+    background:#313131;  
+}
+/*模块三*/
+.mainThree{
+    width:100%;
+    height:auto;
+    padding:0.8rem 0% 2rem;
+    background:#fff;
+}
+.threeMain{
+    width:96%;
+    height:auto;
+    padding:2rem 2% 1.8rem;
+    position:relative;
+    overflow:hidden;
+}
+.threeSlide{
+    position:relative;
+    width:100%;
+    padding-bottom:3.8rem;
+    overflow:hidden;
+    padding-top:2rem;
+}
+.threeSlide a{
+    display:block;
+    float:left;
+    width:92%;
+    height:auto;
+    background:#d7edfb;
+    padding:1.6rem 0rem 0.5rem; 
+    margin:0rem auto;
+    position:relative;
+}
+.mm{
+    position:relative;
+}
+.threeSlide a img{
+    width:90%;
+    height:auto;
+    display:block;
+    margin:0rem auto;
+}
+.threeSlide a b{
+    display:block;
+    position:absolute;
+    width:30%;
+    height:1.6rem;
+    line-height:1.6rem;
+    text-align:center;
+    background:#0093dd;
+    color:#fff;
+    font-size:1rem;
+    top:-0.8rem;
+    left:35%;
+    z-index:100;
+}
+.threeTit{
+    width:42%;
+    height:1rem;
+    line-height:1rem;
+    text-align:center;
+    position:absolute;
+    bottom:0rem;
+    left:29%;
+}
+.threeTit i{
+    font-size:0px;
+    cursor: pointer; 
+    font-style:normal;
+    background:rgba(255,255,255,0); 
+    color:#fff;
+    width:8px; 
+    height:8px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px; 
+    border-radius:5px; 
+    overflow: hidden;
+    margin:0 6px;   
+    display: inline-block;
+    border:1px solid #cecece;
+    background-clip:padding-box;
+
+}
+.threeTit i.current{
+    background-color: #313131;
+
+}
+/*
+.threeTit li{
+    float:left;
+}
+.threeTit li{ 
+    display:inline-block; 
+    width:8px; 
+    height:8px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px; 
+    border-radius:5px; 
+    background:rgba(255,255,255,0); 
+    border:1px solid #313131;
+    text-indent:-9999px; 
+    overflow:hidden; 
+    margin:0 6px;   
+}
+.threeTit li.on{ 
+    background:#313131;  
+}*/
+/*模块四*/
+.mainFour{
+    width:100%;
+    height:auto;
+    padding:2rem 0% 0.5rem;
+    background:#fff;
+}
+.fourMain{
+    width:97%;
+    height:auto;
+    padding:0.5rem 1.5%;
+    overflow:hidden;
+}
+.fourMain li{
+    width:45%;
+    height:13.75rem;
+    margin:0.3rem 0.5%;
+    float:left;
+    padding:0.7rem 2%;
+    color:#fff;
+    position:relative;
+}
+.color1{
+    background:#d685d6;
+}
+.color2{
+    background:#a8c48b;
+}
+.color3{
+    background:#ff7d7e;
+}
+.color4{
+    background:#d6aa7e;
+}
+.color5{
+    background:#66cccc;
+}
+.color6{
+    background:#565656;
+}
+.renqun{
+    display:block;
+    height:1.6rem;
+    line-height:1.6rem;
+    font-size:1.1rem;
+}
+.littleTit{
+    display:block;
+    font-size:1.15rem;
+    line-height:1.6rem;
+    margin-bottom:0.3rem;
+}
+.fourText{
+    font-size:0.9rem;
+    line-height:1.1rem;
+}
+.fourPic{
+    width:92%;
+    height:auto;
+    position:absolute;
+    left:4%;
+    bottom:0.7rem;
+}
+/*模块五*/
+.mainFive{
+    width:100%;
+    height:auto;
+    padding:2rem 0% 0.5rem;
+    background:#fff;
+}
+.bz{
+    width:96%;
+    height:auto;
+    display:block;
+    margin:0.8rem auto;
+}
+.fiveListO{
+    width:98%;
+    height:auto;
+    overflow:hidden;
+    padding:0rem 1%;
+}
+.fiveListO li{
+    float:left;
+    width:23%;
+    height:auto;
+    margin:0.2rem 1%;
+}
+.fiveListO li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.fiveListTt{
+    padding:0rem 2%;
+    font-size:1rem;
+    color:#333333;
+    line-height:1.4rem;
+    text-align:center;
+    margin:1.5rem 0%;
+    font-weight:bold;
+}
+.fiveListTt b{
+    display:block;
+    color:#286bce;
+    line-height:2rem;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.fiveListT{
+    width:98%;
+    height:auto;
+    padding:0.5rem 1%;
+    overflow:hidden;
+}
+.fiveListT li{
+    float:left;
+    margin:0.5rem 1%;
+    width:48%;
+    height:auto;
+}
+.fiveListT li span{
+    display:block;
+    border:1px solid #e0e0e0;
+}
+.fiveListT li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.fiveListT li b{
+    display:block;
+    height:2rem;
+    line-height:2rem;
+    padding:0rem 2%;
+    font-size:1.2rem;
+    color:#333;
+    margin:1rem 0% 0.2rem;
+    font-weight:bold;
+}
+.fiveListT li em{
+    display:block;
+    height:7.4rem;
+    line-height:1.4rem;
+    padding:0rem 2%;
+    font-size:0.9rem;
+    color:#666;
+}
+/*模块六*/
+.mainSix{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:2rem 0% 0.5rem;
+}
+.grLe{
+    display:block;
+    line-height:1.4rem;
+    font-size:1rem;
+    color:#02988f;
+    font-weight:bold;
+    text-align:center;
+    margin:0.5rem 0rem;
+}
+.jhLar{
+     display:block;
+     text-align:center;
+     font-size:1.6rem;
+     color:#f1571b;
+     line-height:2rem;
+     font-weight:bold;
+ }
+.sixTit{
+    width:96%;
+    height:auto;
+    display:block;
+    margin:0.8rem auto;
+}
+.sixList{
+    width:96%;
+    height:auto;
+    padding:0rem 2% 0.5rem;
+}
+.sixList li{
+    width:92%;
+    height:1.6rem;
+    position:relative;
+    margin-top:1.6rem;
+    color:#fff;
+    font-size:1.1rem;
+    line-height:1.6rem;
+    padding-left:8%;
+    border-radius:5px;
+}
+.green{
+    background:#26aa3a;
+    border:1px solid #219031;
+}
+.green i{
+    width:7%;
+    height:1.8rem;
+    line-height:1.8rem;
+    border:2px solid #26aa3a;
+    border-radius:50% 50%;
+    background:#fff;
+    color:#26aa3a;
+    font-size:1.1rem;
+    font-weight:bold;
+    position:absolute;
+    top:-0.3rem;
+    left:-0.4rem;
+    text-align:center;
+}
+.green p{
+    font-weight:bold;
+}
+.juhuang{
+    background:#f1571b;
+    border:1px solid #d1430c;
+}
+.juhuang i{
+    width:7%;
+    height:1.8rem;
+    line-height:1.8rem;
+    border:2px solid #d1430c;
+    border-radius:50% 50%;
+    background:#fff;
+    color:#f1571b;
+    font-size:1.1rem;
+    font-weight:bold;
+    position:absolute;
+    top:-0.3rem;
+    left:-0.4rem;
+    text-align:center;
+}
+.juhuang p{
+    font-weight:bold;
+}
+/*模块七*/
+.mainSeven{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:2rem 0% 0.5rem;
+}
+.sevenList{
+    width:98%;
+    height:auto;
+    overflow:hidden;
+    padding:0rem 1%;
+}
+.sevenList li{
+    width:48%;
+    height:26rem;
+    float:left;
+    margin:0.5rem 1%;
+    padding-bottom:0.3rem;
+}
+.sevenList li img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.sevenList li b{
+    display:block;
+    line-height:1.6rem;
+    font-size:1.2rem;
+    color:#fff;
+    padding:0rem 3%;
+    font-weight:bold;
+    margin:0.5rem 0%;
+}
+.sevenList li p{
+    color:#fff;
+    min-height:6rem;
+    font-size:1rem;
+    line-height:1.5rem;
+    padding:0rem 3%;
+}
+.bgLan{
+    background:#54c9e8;
+}
+.bgHong{
+    background:#ff6565;
+}
+/*模块八*/
+.mainEight{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:2rem 0% 2rem;
+}
+.eightSlide{
+    width:80%;
+    height:auto;
+    margin:0.5rem auto;
+    position:relative;
+}
+.eightSlideMain{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position:relative;    
+}
+.eightSlideMain li{
+    position:relative;
+    background:#ededed;
+    padding:0rem 0rem 1rem;
+}
+.eightSlideMain li b{
+    display:block;
+    line-height:2rem;
+    text-align:center;
+    color:#333333;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+.eightSlideMain li p{
+    font-size:1rem;
+    color:#666666;
+    line-height:1.4rem;
+    padding:0rem 6%;
+}
+.eightSlideMain li img{
+    width:60%;
+    height:auto;
+    margin:2rem auto 0.5rem;
+    display:block;
+}
+.eightTit{
+    width:30%;
+    height:1rem;
+    line-height:1rem;
+    text-align:center;
+    position:absolute;
+    bottom:-1.7rem;
+    left:40%;
+}
+.eightTit li{
+    float:left;
+}
+.eightTit li{ 
+    display:inline-block; 
+    width:8px; 
+    height:8px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px; 
+    border-radius:5px; 
+    background:rgba(255,255,255,0); 
+    border:1px solid #313131;
+    text-indent:-9999px; 
+    overflow:hidden; 
+    margin:0 6px;   
+}
+.eightTit li.on{ 
+    background:#313131;  
+}
+/*模块九*/
+.mainNine{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:1.5rem 0% 2rem;
+}
+.mainNine img{
+    width:98%;
+    height:auto;
+    display:block;
+    margin:0rem auto 0.2rem;
+}
+.mainNine .joinUsTit{
+    margin-bottom:0.8rem;
+}
+/*模块十*/
+.mainTen{
+    width:100%;
+    height:auto;
+    background:#fff;
+    padding:1.5rem 0% 2rem;
+}
+.tishiy{
+    padding:1rem 2%;
+    color:#666666;
+    font-size:1.1rem;
+    line-height:1.4rem;
+    font-weight:bold;
+    margin-bottom:0.5rem;
+}
+.tenPhon{
+    width:96%;
+    height:auto;
+    padding:0rem 2%;
+    margin-bottom:2rem;
+}
+.fs{
+    display:block;
+    width:20%;
+    height:1.8rem;
+    line-height:1.8rem;
+    text-align:center;
+    background:#286bce;
+    font-size:1.1rem;
+    color:#fff;
+    margin-bottom:0.6rem;
+}
+.dianhua{
+    display:block;
+    padding:0.5rem 0%;
+    border-bottom:1px solid #286bce;
+    color:#286bce;
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.dianhua b{
+    float:right;
+    display:block;
+    width:25%;
+    text-align:right;
+    background:url(../images/phon.png) no-repeat left center;
+    background-size:20% 85%;
+    font-weight:bold;
+}
+.tenOnline{
+    width:96%;
+    height:auto;
+    padding:0rem 2%;
+}
+.bdMian{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.bdMian span{
+    display:block;
+    color:#286bce;
+    font-size:1.1rem;
+    padding:0.8rem 0%;
+}
+.bdMian input{
+    display:block;
+    width:97%;
+    border-radius:5px;
+    border:1px solid #cccccc;
+    height:2.4rem;
+    line-height:2.4rem;
+    font-size:1.1rem;
+    padding-left:2%;
+    font-family:'Microsoft YaHei';
+}
+.bdMian textarea{
+    display:block;
+    width:95%;
+    border-radius:5px;
+    border:1px solid #cccccc;
+    height:7.2rem;
+    line-height:2.4rem;
+    padding:0.1rem 2%;
+    font-family:'Microsoft YaHei';
+    font-size:1.1rem;
+}
+.bdMian input[name="tijiao"]{
+    width:100%;
+    height:2.4rem;
+    background:#286bce;
+    line-height:2.4rem;
+    text-align:center;
+    color:#fff;
+    font-size:1.1rem;
+    border:none;
+    margin-top:0.8rem;
+}
+/*底部*/
+.menuPop ul.footA li a.footOnes{
+    background:url(../images/liaojie.png) no-repeat center 5px;
+    background-size:25% 44%;
+}
+.menuPop ul.footA li a.footTwos{
+    background:url(../images/qianli.png) no-repeat center 5px;
+    background-size:27% 41%;
+}
+.menuPop ul.footA li a.footThrees{
+    background:url(../images/youshi.png) no-repeat center 5px;
+    background-size:30% 44%;
+}
+.menuPop ul.footA li a.footFours{
+    background:url(../images/jiameng.png) no-repeat center 5px;
+    background-size:24% 44%;
+}
